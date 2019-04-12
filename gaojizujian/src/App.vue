@@ -1,17 +1,19 @@
 <template>
-  <div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <p>This is Build!</p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+  export default{
+
+  }
 </script>
 
-<style>
-  .wrapper{
-    display:block;
-    width:1200px;
-    margin:50px auto;
-    overflow:hidden;
-    padding:10px;
-  }
+<style scoped>
+
 </style>
